@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(adam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top , right;
+}
+div{
+    background-color: rgba(111, 224, 239, 0.236);
+    width: 20vw;
+    height: 100vh;
+}
+p{
+    
+    font-size: 30px;
+    text-align: center;
+    border: 1px white solid;
+    margin: 13px;
+}
+h1{
+    background-color: black;
+    color: white;
+    width: 20vw;
+    text-align: center;
+}
+p:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
